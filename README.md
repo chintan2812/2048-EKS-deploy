@@ -48,7 +48,7 @@ By completing these steps, your AWS environment is ready to host an Amazon EKS c
 
 ![Screenshot 2023-12-16 193921](https://github.com/chintan2812/2048-EKS-deploy/assets/142546141/39a7aa8c-3dac-48d5-aab5-55c8fc7fcc1d)
 
-### EKS demo-cluste pods
+### EKS demo-cluster pods
 
 ![Screenshot 2023-12-16 194002](https://github.com/chintan2812/2048-EKS-deploy/assets/142546141/7014b46c-f91b-4508-9adb-eae3c558e08e)
 
