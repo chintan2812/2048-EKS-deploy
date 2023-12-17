@@ -5,7 +5,7 @@ export cluster_name=demo-cluster
 ```
 
 ```
-oidc_id=$(aws eks describe-cluster --name $cluster_name --query "cluster.identity.oidc.issuer" --output text | cut -d '/' -f 5) 
+oidc_id=$(aws eks describe-cluster --name $demo-cluster --query "cluster.identity.oidc.issuer" --output text | cut -d '/' -f 5) 
 ```
 
 ## Check if there is an IAM OIDC provider configured already
@@ -15,5 +15,5 @@ oidc_id=$(aws eks describe-cluster --name $cluster_name --query "cluster.identit
 If not, run the below command
 
 ```
-eksctl utils associate-iam-oidc-provider --cluster $cluster_name --approve
+eksctl utils associate-iam-oidc-provider --cluster $demo-cluster --approve
 ```
