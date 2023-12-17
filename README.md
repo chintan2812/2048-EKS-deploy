@@ -32,4 +32,26 @@ Before launching an EKS cluster, we need to prepare the networking and security 
 
 By configuring IAM policies and associating them with IAM roles, you grant specific permissions to your EKS worker nodes, ensuring they can interact with AWS resources as needed while maintaining security and access control.
 
-By completing these steps, your AWS environment is ready to host an Amazon EKS cluster. You can proceed with creating an EKS cluster using the AWS Management Console
+By completing these steps, your AWS environment is ready to host an Amazon EKS cluster. You can proceed with creating an EKS cluster using the AWS Management Console.
+
+
+
+### 2048 running console
+
+![2048 runnning](https://github.com/chintan2812/2048-EKS-deploy/assets/142546141/6c576101-d34d-4d46-a0ca-92d399681650)
+
+### Load balancer k8s-2048
+
+![LB 2408](https://github.com/chintan2812/2048-EKS-deploy/assets/142546141/267be166-90f6-4594-b70f-16f5ec9f380f)
+
+### EKS demo-cluster 
+
+![Screenshot 2023-12-16 193921](https://github.com/chintan2812/2048-EKS-deploy/assets/142546141/39a7aa8c-3dac-48d5-aab5-55c8fc7fcc1d)
+
+### EKS demo-cluste pods
+
+![Screenshot 2023-12-16 194002](https://github.com/chintan2812/2048-EKS-deploy/assets/142546141/7014b46c-f91b-4508-9adb-eae3c558e08e)
+
+
+
+
